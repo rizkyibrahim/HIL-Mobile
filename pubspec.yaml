@@ -1,0 +1,42 @@
+name: hil_mobile
+version: 1.0.0+1
+publish_to: none
+description: A new Flutter project.
+environment: 
+  sdk: '>=2.17.6 <3.0.0'
+
+dependencies: 
+  cupertino_icons: 1.0.5
+  get: 4.6.5
+  pedantic: 1.11.1
+  convex_bottom_bar: ^3.0.0
+  flutter_settings_ui: 2.0.1
+  get_storage: 2.0.3
+  package_info_plus: 1.4.3+1
+  carousel_slider: 4.1.1
+  shared_preferences: 2.0.15
+  provider: 6.0.3
+  flutter: 
+    sdk: flutter
+
+dev_dependencies: 
+  flutter_lints: ^2.0.0
+  flutter_test: 
+    sdk: flutter
+
+flutter: 
+  assets: 
+    - assets/images/icon.png
+    - assets/images/logo.png
+    - assets/images/splash.png
+    - assets/images/auth_background.png
+    - assets/icons/hil_management.png
+    - assets/icons/hil_management_active.png
+    - assets/icons/task_to_do.png
+    - assets/icons/task_to_do_active.png
+    - assets/icons/setting.png
+    - assets/icons/setting_active.png
+    - assets/icons/profile.png
+    - assets/icons/profile_active.png
+  uses-material-design: true
+
